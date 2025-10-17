@@ -1,0 +1,4 @@
+id_cliente,nombre,ciudad,ingreso,genero,fecha_alta
+1001,Juan Perez,Sntiago,1200000,M,2023-01-12
+1002,María Lopez,Santiago,850000,F,2022-10-05
+1003,Carlos Ruiz,Viña del Mar,700000,M,2021-11-08

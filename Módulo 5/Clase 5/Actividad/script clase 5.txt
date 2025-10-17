@@ -1,0 +1,178 @@
+-- 1. Crear base de datos
+-- CREATE DATABASE ventas_olap;
+
+-- 2. Conectarse a la DB usando el comando
+-- USE ventas_olap;
+
+-- 3. Crear tablas de dimensiones
+
+-- Tabla Producto (Dimensión)
+CREATE TABLE producto (
+    id_producto INTEGER PRIMARY KEY,
+    nombre VARCHAR(100),
+    categoria VARCHAR(50),
+    precio NUMERIC(10,2)
+);
+
+-- Tabla Cliente (Dimensión)
+CREATE TABLE cliente (
+    id_cliente INTEGER PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    ubicacion VARCHAR(100)
+);
+
+-- Tabla Tiempo (Dimensión)
+CREATE TABLE tiempo (
+    id_tiempo INTEGER PRIMARY KEY,
+    fecha DATE,
+    mes INTEGER,
+    año INTEGER,
+    trimestre INTEGER
+);
+
+-- 4. Crear tabla de hechos (Centro del esquema estrella)
+CREATE TABLE ventas (
+    id_venta SERIAL PRIMARY KEY,
+    id_producto INTEGER,
+    id_cliente INTEGER,
+    id_tiempo INTEGER,
+    cantidad INTEGER,
+    total NUMERIC(12,2),
+    FOREIGN KEY (id_producto) REFERENCES producto(id_producto),
+    FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente),
+    FOREIGN KEY (id_tiempo) REFERENCES tiempo(id_tiempo)
+);
+
+-- 5. Insertar datos simulados
+
+-- Productos
+INSERT INTO producto (id_producto, nombre, categoria, precio) VALUES
+(1, 'Laptop Gamer', 'Electrónica', 700000),
+(2, 'Impresora Epson', 'Electrónica', 86000),
+(3, 'Polera Mujer', 'Vestuario', 19999),
+(4, 'Mouse Inalámbrico', 'Electrónica', 15000),
+(5, 'Teclado Mecánico', 'Electrónica', 45000),
+(6, 'Monitor Curvo 27"', 'Electrónica', 180000),
+(7, 'Jeans Hombre', 'Vestuario', 29990),
+(8, 'Zapatillas Running', 'Vestuario', 49990),
+(9, 'Chaqueta Impermeable', 'Vestuario', 59990),
+(10, 'Smartphone XYZ', 'Electrónica', 350000),
+(11, 'Audífonos Bluetooth', 'Electrónica', 25000),
+(12, 'Vestido Verano', 'Vestuario', 22990);
+
+-- Clientes
+INSERT INTO cliente (id_cliente, nombre, apellido, ubicacion) VALUES
+(1, 'Isabella', 'Morales', 'Valdivia'),
+(2, 'Diego', 'Castillo', 'Viña del Mar'),
+(3, 'Camila', 'Torres', 'Rancagua'),
+(4, 'Ana', 'González', 'Valparaíso'),
+(5, 'Luisa', 'Martínez', 'Antofagasta'),
+(6, 'Pedro', 'Ramírez', 'La Serena'),
+(7, 'Sofía', 'López', 'Temuco'),
+(8, 'Javier', 'Hernández', 'Buenos Aires'),
+(9, 'Valentina', 'Díaz', 'Lima'),
+(10, 'Miguel', 'Pérez', 'Bogotá');
+
+-- Tiempo
+INSERT INTO tiempo (id_tiempo, fecha, mes, año, trimestre) VALUES
+(1, '2025-07-30', 7, 2025, 3),
+(2, '2025-08-30', 8, 2025, 3),
+(3, '2025-09-30', 9, 2025, 3),
+(4, '2025-10-15', 10, 2025, 4),
+(5, '2025-11-20', 11, 2025, 4),
+(6, '2025-12-05', 12, 2025, 4),
+(7, '2026-01-10', 1, 2026, 1),
+(8, '2026-02-18', 2, 2026, 1);
+
+-- Ventas (Tabla de hechos)
+INSERT INTO ventas (id_producto, id_cliente, id_tiempo, cantidad, total) VALUES
+(1, 1, 1, 1, 700000),
+(2, 2, 2, 3, 258000),
+(6, 8, 3, 1, 180000),
+(9, 9, 4, 1, 59990),
+(12, 10, 5, 2, 45980),
+(2, 5, 6, 1, 86000),
+(7, 6, 7, 2, 59980),
+(1, 7, 8, 1, 700000),
+(4, 3, 4, 3, 45000),
+(8, 4, 5, 1, 49990),
+(11, 1, 6, 1, 25000),
+(3, 2, 7, 3, 59997);
+
+
+-- 7. Consulta de agregación
+
+-- Consulta: Total de ventas por mes y categoría de producto
+SELECT
+    t.mes,
+    p.categoria,
+    SUM(v.total) AS total_mensual
+FROM ventas v
+JOIN producto p ON v.id_producto = p.id_producto
+JOIN tiempo t ON v.id_tiempo = t.id_tiempo
+GROUP BY t.mes, p.categoria
+ORDER BY t.mes;
+
+
+-- 8. Consultas adicionales
+
+-- Ventas por trimestre
+SELECT
+    t.año,
+    t.trimestre,
+    SUM(v.total) AS total_trimestral,
+    COUNT(v.id_venta) AS numero_ventas
+FROM ventas v
+JOIN tiempo t ON v.id_tiempo = t.id_tiempo
+GROUP BY t.año, t.trimestre
+ORDER BY t.año, t.trimestre;
+
+-- Top 5 productos más vendidos
+SELECT
+    p.nombre,
+    p.categoria,
+    SUM(v.cantidad) AS total_cantidad,
+    SUM(v.total) AS total_ingresos
+FROM ventas v
+JOIN producto p ON v.id_producto = p.id_producto
+GROUP BY p.id_producto, p.nombre, p.categoria
+ORDER BY total_ingresos DESC
+LIMIT 5;
+
+-- Ventas por ubicación de cliente
+SELECT
+    c.ubicacion,
+    COUNT(v.id_venta) AS numero_ventas,
+    SUM(v.total) AS total_ventas,
+    AVG(v.total) AS promedio_venta
+FROM ventas v
+JOIN cliente c ON v.id_cliente = c.id_cliente
+GROUP BY c.ubicacion
+ORDER BY total_ventas DESC;
+
+-- Vista resumen de ventas
+CREATE VIEW vista_ventas_resumen AS
+SELECT
+    v.id_venta,
+    p.nombre AS producto,
+    p.categoria,
+    c.nombre || ' ' || c.apellido AS cliente,
+    c.ubicacion,
+    t.fecha,
+    t.mes,
+    t.año,
+    t.trimestre,
+    v.cantidad,
+    v.total,
+    p.precio AS precio_unitario
+FROM ventas v
+JOIN producto p ON v.id_producto = p.id_producto
+JOIN cliente c ON v.id_cliente = c.id_cliente
+JOIN tiempo t ON v.id_tiempo = t.id_tiempo;
+
+-- Consulta usando la vista
+SELECT * FROM vista_ventas_resumen 
+WHERE año = 2025 AND categoria = 'Electrónica'
+ORDER BY fecha;
+

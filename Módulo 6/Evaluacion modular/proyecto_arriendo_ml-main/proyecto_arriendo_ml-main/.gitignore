@@ -1,0 +1,27 @@
+# Ignorar el entorno virtual
+amb_proyecto_arriendo_ml/
+
+# Archivos compilados de Python
+__pycache__/
+app/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Datos temporales y resultados intermedios (si no se entregan)
+# Puedes comentar estas líneas si decides versionar los datos
+# *.pkl
+# *.csv
+# data/
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Configuraciones locales de IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

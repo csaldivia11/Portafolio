@@ -1,0 +1,9 @@
+Instrucciones de Entrega - Evaluación Final Módulo 6
+
+1. Prepara tu modelo de clasificación y regresión con el dataset 'insurance.csv'.
+2. Aplica preprocesamiento adecuado (codificación, escalado).
+3. Evalúa tus modelos con métricas MAE, RMSE, R² o Matriz de Confusión y ROC-AUC.
+4. Completa el informe adjunto y entrega junto a los notebooks usados.
+
+Opcional:
+- Despliega tu modelo con FastAPI o Streamlit si deseas optar a nota máxima.

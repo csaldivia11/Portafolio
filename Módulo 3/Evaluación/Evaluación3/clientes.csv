@@ -1,0 +1,101 @@
+id_cliente,nombre,edad,ciudad,ingreso
+1,Ruperta del Nuñez,,Antofagasta,1645.0
+2,Amanda Llabrés Castañeda,56.0,Sntiago,1475.0
+3,Fermín Villegas Peralta,,Vina del Mr,1750.0
+4,Dolores Perez Chamorro,,Vina del Mr,603.0
+5,Ema de Cervantes,58.0,Santiago,1484.0
+6,Marcela Pili Valcárcel Amores,,nan,3139.0
+7,Rosa María Goicoechea Gonzalez,57.0,Valparaíso,3275.0
+8,Florencio Solís Saavedra,19.0,Antofagasta,1392.0
+9,Eustaquio Céspedes Carrera,43.0,Concepción,2928.0
+10,Gertrudis Rincón Becerra,19.0,Valparaíso,2382.0
+11,Cándido Marcelino Mir Huguet,,Santiago,1539.0
+12,Jenny Saldaña,67.0,Concepción,2528.0
+13,Candelaria Sarmiento Cuesta,50.0,nan,1633.0
+14,Octavio Lloret Camacho,,Valparaíso,1744.0
+15,Juliana Peiró,20.0,Vina del Mr,927.0
+16,Adelardo Mayol-Carbajo,23.0,Santiago,2987.0
+17,Daniel Mur Segovia,,nan,3693.0
+18,Adriana de Villa,,nan,970.0
+19,Vanesa del Sierra,,Concepción,174.0
+20,Berto Carlos Armengol,,Vina del Mr,731.0
+21,Jose Carlos Cánovas Hoyos,,nan,2956.0
+22,Eligia Marco Benavides,,Sntiago,1249.0
+23,Araceli Fanny Menéndez Llamas,,Santiago,1356.0
+24,Pili Colomer,34.0,Concepción,1051.0
+25,Celestina Fortuny-Riera,,Sntiago,2451.0
+26,Encarnacion Santos Fuster,25.0,Concepción,512.0
+27,Paca Bibiana Melero Barrios,25.0,Concepción,
+28,Elpidio Adán Giralt,69.0,Valparaíso,1288.0
+29,Bernardo Baños Cazorla,29.0,nan,1281.0
+30,Espiridión de Sainz,,nan,950.0
+31,Leocadio Esteve,31.0,Sntiago,3457.0
+32,Aurora Tapia Vilalta,,Santiago,2147.0
+33,Moreno Larrea Manrique,,Vina del Mr,999.0
+34,Juan Valera Pazos,,Vina del Mr,1995.0
+35,Pascual Bernad,,Concepción,425.0
+36,Encarnita Narváez Sanz,37.0,Santiago,2331.0
+37,Ámbar Gracia Bravo,,Vina del Mr,2455.0
+38,Felisa Vergara Flor,,Antofagasta,1633.0
+39,Ciríaco Rius-Fabregat,,Valparaíso,1982.0
+40,Leire Gallart Leon,,Sntiago,2553.0
+41,Hector Ricart Coca,45.0,Vina del Mr,0.0
+42,Marcial Reguera Nieto,47.0,nan,1198.0
+43,Ainara Múñiz Mosquera,,Concepción,3075.0
+44,Ana Belén Roura-Salazar,36.0,Vina del Mr,2463.0
+45,Hector Cortes,46.0,nan,2613.0
+46,Arturo Fabio Salas Pino,54.0,Sntiago,1691.0
+47,Rogelio Márquez Luque,55.0,Antofagasta,3076.0
+48,Ulises Cózar Campillo,,nan,1614.0
+49,Belén Calleja Salazar,,Valparaíso,923.0
+50,Martín Casals Gascón,23.0,Valparaíso,2637.0
+51,José Ángel del Revilla,68.0,Valparaíso,1993.0
+52,Antonio Quiroga Cortés,38.0,Antofagasta,1594.0
+53,Nico Maximiliano Adán Prat,34.0,Sntiago,2852.0
+54,Calixto Azcona Marco,46.0,Antofagasta,1513.0
+55,Bartolomé Olmedo Company,62.0,Antofagasta,2466.0
+56,Manola Ramírez Narváez,29.0,Santiago,2946.0
+57,José Blasco Palacios,,Vina del Mr,1211.0
+58,Ángel Torrents Egea,56.0,Concepción,1016.0
+59,Casandra Solsona,,Sntiago,311.0
+60,Lucio Sarmiento Gárate,,Valparaíso,2112.0
+61,Mónica del Valdés,47.0,nan,1287.0
+62,Pacífica de Tejero,62.0,Sntiago,2050.0
+63,Brígida Lledó Dávila,28.0,Vina del Mr,1565.0
+64,Morena Ferrández Pons,57.0,Valparaíso,2197.0
+65,Emelina Graciela Ros Sanz,67.0,Vina del Mr,1277.0
+66,Noelia Canales Benitez,58.0,Santiago,2729.0
+67,Cebrián Teófilo Aguirre Benavente,,Vina del Mr,1436.0
+68,Jorge del Cepeda,64.0,Valparaíso,58.0
+69,Manu Cañete Segura,,Antofagasta,2186.0
+70,Tatiana Julieta Tolosa Castañeda,,Valparaíso,1451.0
+71,Catalina Cabrero-Barrena,35.0,Valparaíso,2567.0
+72,Iván Carretero,62.0,Vina del Mr,2109.0
+73,Baudelio Espinosa Bernal,,Vina del Mr,10000.0
+74,Pablo Gallo,,Antofagasta,3388.0
+75,Amarilis Costa Quiroga,,Antofagasta,850.0
+76,Domingo Vázquez Matas,,Valparaíso,1652.0
+77,Américo Lorenzo Carreras,,Concepción,1793.0
+78,Amador Catalá Expósito,38.0,nan,633.0
+79,Luís Gallart Rodrigo,46.0,Valparaíso,1853.0
+80,Lucila Olmo Cuenca,,Sntiago,1679.0
+81,Curro Salcedo Tudela,,Concepción,-678.0
+82,Baltasar de Franco,,Vina del Mr,1245.0
+83,Ema Manso Falcó,,Concepción,30000.0
+84,Federico Milla Benito,62.0,Vina del Mr,2378.0
+85,Perla Agustín,38.0,nan,1728.0
+86,Fanny Vendrell-Andrés,,Valparaíso,284.0
+87,Gonzalo Batalla,26.0,Concepción,4126.0
+88,Asunción Cuesta,,Concepción,2733.0
+89,Regina Luján Castro,20.0,nan,1581.0
+90,Jerónimo Herrero-Abad,36.0,Concepción,3250.0
+91,Toño Echevarría Marqués,69.0,Antofagasta,2739.0
+92,Flora Mínguez Paniagua,,Valparaíso,3226.0
+93,Azahara Rozas Vilanova,58.0,Santiago,1112.0
+94,Rosalina Alemán-González,29.0,Santiago,2105.0
+95,Isaías del Abascal,,nan,299.0
+96,Toño Ayuso,,Concepción,2659.0
+97,Ramón Esparza-Herrera,,Antofagasta,4054.0
+98,Benigna Coronado Estevez,,Sntiago,419.0
+99,César Baldomero Cañas Ferreras,,Antofagasta,2118.0
+100,Nereida de Recio,,nan,2020.0

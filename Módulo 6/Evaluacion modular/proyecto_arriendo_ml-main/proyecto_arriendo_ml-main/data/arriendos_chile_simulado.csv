@@ -1,0 +1,301 @@
+comuna,tipo,superficie,habitaciones,baños,precio
+Las Condes,Departamento,52,1,2,756714
+Puente Alto,Casa,91,4,1,905469
+Maipú,Departamento,125,3,2,1000155
+Puente Alto,Departamento,66,3,2,765525
+Puente Alto,Casa,41,3,2,654199
+Providencia,Departamento,142,3,1,1176368
+Maipú,Departamento,84,1,1,804292
+Maipú,Departamento,42,1,1,603886
+Maipú,Casa,52,2,1,570211
+Puente Alto,Departamento,118,2,1,667189
+Las Condes,Casa,128,3,1,1199773
+Maipú,Departamento,134,3,1,1004714
+Puente Alto,Departamento,59,3,1,619414
+Providencia,Departamento,46,2,2,792123
+Las Condes,Casa,142,4,2,1314967
+Providencia,Departamento,91,4,1,1108281
+Las Condes,Departamento,113,2,1,1107781
+Puente Alto,Casa,141,2,2,1019775
+Santiago,Departamento,118,2,1,986710
+Las Condes,Casa,115,2,1,1004283
+Providencia,Casa,42,2,1,717873
+Puente Alto,Departamento,88,2,2,718398
+Las Condes,Casa,48,3,2,1040168
+Santiago,Departamento,78,3,2,845050
+Santiago,Casa,129,3,2,1092428
+Maipú,Casa,41,3,2,538165
+Maipú,Departamento,90,2,1,765160
+Providencia,Casa,134,4,2,1321714
+Las Condes,Casa,48,1,1,824698
+Las Condes,Casa,105,2,1,1102169
+Maipú,Casa,38,1,2,520250
+Las Condes,Casa,100,4,2,1183078
+Las Condes,Departamento,57,3,1,834736
+Santiago,Casa,107,4,1,934373
+Maipú,Departamento,124,2,1,912347
+Puente Alto,Casa,81,3,2,734401
+Maipú,Departamento,112,2,2,914841
+Puente Alto,Departamento,140,3,2,1041339
+Santiago,Casa,45,1,2,667368
+Providencia,Casa,146,1,2,1221112
+Las Condes,Casa,98,1,1,1002963
+Santiago,Departamento,128,4,2,1134999
+Las Condes,Casa,41,2,1,852455
+Providencia,Departamento,54,4,1,881428
+Providencia,Departamento,81,1,1,853733
+Santiago,Departamento,114,2,2,933958
+Providencia,Casa,129,1,2,1078023
+Puente Alto,Casa,82,4,2,875184
+Providencia,Departamento,52,4,1,867034
+Las Condes,Departamento,45,4,1,981582
+Las Condes,Casa,86,1,1,922851
+Las Condes,Departamento,68,2,1,939219
+Las Condes,Casa,138,2,1,1217920
+Puente Alto,Departamento,82,1,1,595601
+Maipú,Casa,71,2,2,707205
+Santiago,Departamento,87,1,2,792082
+Las Condes,Casa,68,2,2,942385
+Providencia,Departamento,43,3,2,773464
+Las Condes,Casa,124,3,1,1285871
+Providencia,Casa,34,4,1,827184
+Providencia,Departamento,64,3,2,889084
+Las Condes,Departamento,116,3,1,1248238
+Puente Alto,Casa,122,3,2,973269
+Providencia,Departamento,136,1,2,1071191
+Providencia,Casa,104,3,2,1044575
+Las Condes,Departamento,47,3,1,866280
+Providencia,Casa,140,4,2,1312865
+Providencia,Casa,105,3,2,1132139
+Las Condes,Casa,38,3,2,917108
+Las Condes,Casa,103,2,1,1089578
+Santiago,Casa,87,4,1,962737
+Puente Alto,Casa,137,4,2,1061739
+Puente Alto,Departamento,46,4,1,605218
+Providencia,Departamento,131,4,1,1230032
+Puente Alto,Departamento,36,4,1,597750
+Providencia,Casa,75,4,1,866089
+Santiago,Casa,42,1,1,528331
+Las Condes,Casa,69,3,1,985510
+Las Condes,Casa,71,4,1,1006989
+Las Condes,Departamento,38,3,1,807289
+Puente Alto,Departamento,79,3,1,777368
+Santiago,Casa,56,1,1,569372
+Puente Alto,Departamento,95,4,2,914581
+Puente Alto,Departamento,34,2,2,456162
+Santiago,Casa,58,1,1,761638
+Santiago,Departamento,66,2,2,726415
+Santiago,Casa,67,3,2,775236
+Santiago,Departamento,112,3,1,1007553
+Las Condes,Casa,37,1,1,714464
+Maipú,Casa,141,1,1,994946
+Maipú,Casa,138,2,2,1008179
+Santiago,Casa,94,4,2,948880
+Maipú,Departamento,115,2,1,851749
+Maipú,Casa,145,1,1,999379
+Santiago,Casa,46,2,1,634724
+Maipú,Casa,100,1,2,801615
+Puente Alto,Departamento,118,2,2,902650
+Providencia,Casa,74,1,2,877446
+Providencia,Departamento,33,1,2,724593
+Santiago,Casa,65,1,1,647083
+Las Condes,Departamento,99,4,1,1143309
+Santiago,Departamento,60,2,1,626044
+Las Condes,Casa,48,2,1,846488
+Providencia,Departamento,90,2,2,902022
+Santiago,Casa,137,1,2,999577
+Puente Alto,Casa,83,2,1,684569
+Maipú,Casa,68,2,1,684329
+Las Condes,Departamento,120,1,2,1061558
+Maipú,Departamento,103,3,1,756632
+Maipú,Casa,119,1,2,842256
+Santiago,Casa,48,2,1,579304
+Maipú,Departamento,68,1,1,526572
+Puente Alto,Casa,96,3,1,841599
+Maipú,Casa,74,1,1,720861
+Santiago,Casa,42,2,1,566552
+Puente Alto,Departamento,143,3,1,996811
+Providencia,Departamento,121,4,1,1172810
+Maipú,Departamento,87,2,2,742455
+Santiago,Casa,49,3,2,748986
+Providencia,Casa,121,3,2,1218707
+Providencia,Casa,101,4,2,1090769
+Las Condes,Departamento,90,1,2,990238
+Puente Alto,Casa,134,1,1,927026
+Maipú,Casa,68,2,1,700051
+Santiago,Casa,30,4,2,727884
+Las Condes,Casa,32,1,1,782799
+Puente Alto,Departamento,106,4,2,992942
+Las Condes,Departamento,121,1,2,1169632
+Puente Alto,Casa,91,3,1,789446
+Puente Alto,Departamento,92,1,1,667275
+Maipú,Departamento,142,4,1,1081573
+Puente Alto,Casa,54,3,2,630079
+Las Condes,Casa,85,3,1,939375
+Puente Alto,Departamento,62,3,2,676425
+Maipú,Casa,67,4,2,809276
+Maipú,Departamento,146,2,2,993836
+Las Condes,Casa,35,2,1,767361
+Providencia,Departamento,87,2,1,937698
+Providencia,Casa,73,4,2,1084442
+Puente Alto,Departamento,74,3,1,692828
+Santiago,Departamento,61,2,1,754031
+Puente Alto,Departamento,74,4,1,625175
+Las Condes,Casa,90,2,2,1105392
+Las Condes,Departamento,76,1,2,994070
+Las Condes,Departamento,50,2,1,885112
+Las Condes,Casa,109,2,2,1017204
+Las Condes,Casa,147,3,1,1348344
+Maipú,Departamento,114,4,1,956294
+Providencia,Departamento,104,3,1,940333
+Las Condes,Casa,130,3,1,1290908
+Santiago,Casa,65,3,2,855208
+Santiago,Casa,128,3,2,952374
+Santiago,Casa,48,3,2,720371
+Santiago,Casa,49,2,1,705229
+Maipú,Departamento,86,3,1,852708
+Santiago,Casa,47,3,1,719203
+Las Condes,Departamento,76,4,2,946837
+Puente Alto,Departamento,134,1,1,899277
+Santiago,Departamento,78,2,2,776694
+Maipú,Casa,43,2,2,640392
+Maipú,Departamento,44,2,2,607608
+Santiago,Departamento,60,3,2,761005
+Puente Alto,Casa,30,3,2,588045
+Santiago,Departamento,146,3,2,1114604
+Maipú,Departamento,83,4,1,827386
+Providencia,Casa,147,1,1,1119638
+Las Condes,Departamento,32,3,2,764129
+Maipú,Departamento,45,1,2,577392
+Santiago,Departamento,116,4,1,976898
+Las Condes,Casa,86,2,2,1011160
+Santiago,Casa,104,3,2,961148
+Santiago,Casa,41,1,1,447939
+Providencia,Departamento,103,1,2,899532
+Las Condes,Departamento,125,3,2,1220013
+Las Condes,Casa,45,2,2,871728
+Providencia,Departamento,101,2,1,1041401
+Maipú,Departamento,131,2,1,850634
+Santiago,Casa,105,4,1,1002831
+Puente Alto,Casa,53,1,2,540346
+Santiago,Departamento,57,1,2,605242
+Santiago,Departamento,146,1,1,960772
+Maipú,Departamento,37,4,2,705492
+Santiago,Casa,121,1,2,931900
+Providencia,Casa,65,4,2,985515
+Providencia,Casa,119,2,2,1121974
+Las Condes,Casa,37,3,2,911804
+Puente Alto,Departamento,87,1,1,660545
+Santiago,Casa,89,1,2,786515
+Santiago,Casa,79,2,1,818708
+Maipú,Casa,57,3,2,682820
+Providencia,Casa,121,4,1,1219107
+Puente Alto,Casa,130,3,2,950814
+Las Condes,Departamento,70,2,1,903206
+Providencia,Departamento,129,2,2,1146597
+Las Condes,Casa,93,3,1,1096363
+Maipú,Departamento,56,4,2,804909
+Maipú,Casa,147,4,1,1102227
+Santiago,Casa,92,1,2,721408
+Puente Alto,Departamento,46,4,1,674772
+Las Condes,Departamento,102,3,1,1231092
+Providencia,Casa,62,2,2,875833
+Maipú,Casa,146,1,2,887761
+Santiago,Casa,113,1,1,863082
+Santiago,Departamento,106,2,2,905049
+Las Condes,Casa,121,4,1,1233844
+Maipú,Casa,141,2,1,1019470
+Puente Alto,Casa,58,4,1,762513
+Maipú,Departamento,42,2,2,620579
+Las Condes,Casa,75,3,1,988347
+Las Condes,Casa,64,4,1,1055083
+Maipú,Departamento,35,3,2,532308
+Las Condes,Casa,111,1,2,1040397
+Maipú,Casa,144,2,2,984568
+Providencia,Departamento,98,1,2,970052
+Maipú,Casa,76,1,1,674536
+Maipú,Departamento,54,1,1,546764
+Las Condes,Departamento,95,1,1,933698
+Las Condes,Casa,39,2,1,842542
+Santiago,Casa,85,1,2,755227
+Santiago,Casa,59,2,1,682906
+Providencia,Casa,143,2,1,1208153
+Santiago,Departamento,138,3,2,1091543
+Maipú,Casa,34,4,1,624963
+Las Condes,Departamento,148,4,1,1403123
+Santiago,Casa,149,2,1,1063368
+Santiago,Casa,62,3,1,783539
+Providencia,Casa,147,2,1,1224633
+Providencia,Departamento,94,2,1,1075644
+Maipú,Casa,47,2,2,627870
+Las Condes,Casa,125,3,2,1266898
+Providencia,Casa,140,4,1,1323082
+Santiago,Casa,78,3,1,810780
+Las Condes,Departamento,40,1,2,746107
+Las Condes,Casa,114,3,1,1135092
+Santiago,Departamento,55,3,1,687774
+Providencia,Departamento,92,3,1,968883
+Santiago,Departamento,118,3,2,1021490
+Las Condes,Departamento,115,4,1,1181524
+Puente Alto,Departamento,88,1,2,709342
+Puente Alto,Departamento,56,4,1,677266
+Maipú,Casa,78,4,2,835518
+Santiago,Departamento,106,3,2,983002
+Santiago,Departamento,62,2,1,663305
+Maipú,Departamento,127,2,2,975344
+Maipú,Casa,134,4,1,1121165
+Maipú,Casa,128,4,2,1064755
+Las Condes,Departamento,30,3,1,766895
+Santiago,Casa,50,4,1,709249
+Las Condes,Departamento,141,3,2,1289786
+Maipú,Departamento,84,2,1,703055
+Santiago,Casa,35,2,1,527440
+Las Condes,Departamento,121,1,2,1125920
+Las Condes,Casa,110,2,1,1080940
+Maipú,Casa,98,4,1,901086
+Santiago,Departamento,124,2,2,1040119
+Maipú,Departamento,34,3,2,590982
+Santiago,Casa,131,2,1,920928
+Puente Alto,Departamento,32,1,1,414455
+Providencia,Departamento,82,2,2,992921
+Providencia,Departamento,52,3,2,912238
+Providencia,Casa,130,3,1,1201931
+Maipú,Casa,82,4,2,823164
+Puente Alto,Departamento,66,2,1,664795
+Santiago,Casa,103,3,1,961444
+Las Condes,Casa,103,1,1,977828
+Santiago,Casa,112,4,1,998321
+Las Condes,Casa,46,1,1,874220
+Santiago,Casa,114,2,2,901806
+Puente Alto,Departamento,107,2,2,744145
+Las Condes,Departamento,102,2,2,1157545
+Maipú,Departamento,139,4,2,1150630
+Santiago,Casa,30,3,1,583151
+Santiago,Casa,80,4,1,860350
+Las Condes,Departamento,74,1,1,829553
+Maipú,Casa,106,4,1,929647
+Maipú,Departamento,33,1,2,556895
+Puente Alto,Departamento,91,4,1,805069
+Maipú,Departamento,94,3,1,868655
+Maipú,Casa,142,1,2,979586
+Maipú,Casa,133,2,2,997490
+Providencia,Departamento,61,2,2,841984
+Puente Alto,Departamento,63,4,2,726868
+Santiago,Departamento,121,2,1,845861
+Las Condes,Departamento,124,1,1,1072466
+Santiago,Casa,101,2,2,942374
+Puente Alto,Casa,68,3,1,639133
+Las Condes,Departamento,55,3,1,871984
+Puente Alto,Departamento,63,4,1,746609
+Maipú,Casa,83,1,2,728738
+Las Condes,Casa,147,3,1,1331893
+Maipú,Departamento,32,3,2,536238
+Santiago,Departamento,79,1,1,840002
+Santiago,Departamento,41,2,1,541412
+Las Condes,Casa,94,2,1,1032512
+Las Condes,Casa,83,4,2,1100667
+Puente Alto,Casa,137,2,1,866067
+Puente Alto,Departamento,34,1,2,454289
+Maipú,Departamento,123,3,2,977765
+Las Condes,Casa,123,2,2,1144101
+Santiago,Casa,86,4,1,938061

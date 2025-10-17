@@ -1,0 +1,18 @@
+Versión de Python utilizada:
+Python 3.11.9
+
+Entorno de desarrollo elegido:
+Visual Studio Code
+
+Descripción breve del script:
+Este script incluye ejemplos básicos de declaración de variables de diferentes tipos y el uso de operadores aritméticos y lógicos.
+Tambien solicita al usuario su nombre y edad. Luego, utiliza estructuras condicionales para determinar si el usuario es menor o mayor de edad,
+imprimiendo un mensaje de "Acceso denegado" o "Acceso permitido" basado en la edad.
+
+Estructuras y operadores utilizados:
+- Variables: Declaración y asignación de variables de tipo entero (int), decimal (float), cadena (str) y booleano (bool).
+- Entrada/Salida: Uso de la función input() para obtener datos del usuario y print() para mostrar información en la consola.
+- Operadores Aritméticos: Uso del operador de multiplicación (*).
+- Operadores Lógicos: Uso de operadores de comparación (>) y operadores lógicos (or).
+- Estructuras Condicionales: Uso de if, elif y else para controlar el flujo de ejecución basado en la edad del usuario.
+- Comentarios: Uso de # para comentarios de línea

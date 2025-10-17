@@ -1,0 +1,201 @@
+id_cliente,nombre,edad,ciudad,correo
+1,Pedro Martínez,46,La Paz,pedro.martínez61@gmail.com
+2,Pedro Silva,36,Caracas,pedro.silva75@outlook.com
+3,Lucía Sánchez,53,La Paz,lucía.sánchez24@outlook.com
+4,María Sánchez,19,La Paz,maría.sánchez30@yahoo.com
+5,Ana Sánchez,50,Asunción,ana.sánchez22@gmail.com
+6,Andrés Pérez,44,Asunción,andrés.pérez92@outlook.com
+7,Carlos Ramírez,20,Buenos Aires,carlos.ramírez51@outlook.com
+8,Luis Morales,56,Bogotá,luis.morales4@gmail.com
+9,Ana Silva,26,Asunción,ana.silva53@yahoo.com
+10,Sofía Ramírez,61,La Paz,sofía.ramírez47@outlook.com
+11,Juan Martínez,57,Ciudad de México,juan.martínez2@yahoo.com
+12,María Torres,59,Ciudad de México,maría.torres54@gmail.com
+13,Ana Silva,61,Bogotá,ana.silva74@yahoo.com
+14,Sofía Díaz,31,Caracas,sofía.díaz62@gmail.com
+15,Ana Sánchez,41,Asunción,ana.sánchez89@gmail.com
+16,Andrés Pérez,42,Caracas,andrés.pérez9@gmail.com
+17,Lucía Díaz,28,Santiago,lucía.díaz81@outlook.com
+18,Carlos Pérez,22,Asunción,carlos.pérez41@outlook.com
+19,Andrés Díaz,29,Bogotá,andrés.díaz33@outlook.com
+20,Pedro Díaz,54,Santiago,pedro.díaz44@yahoo.com
+21,Carlos Pérez,52,Buenos Aires,carlos.pérez47@yahoo.com
+22,Carlos Pérez,22,Asunción,carlos.pérez14@outlook.com
+23,Andrés Silva,59,Santiago,andrés.silva63@outlook.com
+24,Juan Martínez,49,Ciudad de México,juan.martínez94@gmail.com
+25,Pedro Ramírez,62,Ciudad de México,pedro.ramírez13@outlook.com
+26,Carlos Torres,45,Bogotá,carlos.torres42@gmail.com
+27,Andrés Sánchez,23,Ciudad de México,andrés.sánchez30@yahoo.com
+28,Laura Ramírez,45,Montevideo,laura.ramírez62@gmail.com
+29,Juan Morales,44,Montevideo,juan.morales77@gmail.com
+30,Carlos Ramírez,23,La Paz,carlos.ramírez27@gmail.com
+31,Luis Pérez,59,La Paz,luis.pérez79@outlook.com
+32,María Díaz,58,Ciudad de México,maría.díaz62@gmail.com
+33,Laura Martínez,29,Caracas,laura.martínez2@outlook.com
+34,Juan Sánchez,34,Lima,juan.sánchez2@yahoo.com
+35,María Ramírez,54,Lima,maría.ramírez1@outlook.com
+36,Ana Sánchez,61,Asunción,ana.sánchez32@yahoo.com
+37,Pedro Martínez,28,La Paz,pedro.martínez17@outlook.com
+38,María Díaz,22,Ciudad de México,maría.díaz98@yahoo.com
+39,María Pérez,26,Quito,maría.pérez80@gmail.com
+40,Carlos Martínez,53,Santiago,carlos.martínez90@outlook.com
+41,Carlos Martínez,49,Caracas,carlos.martínez52@gmail.com
+42,Juan Díaz,56,Bogotá,juan.díaz1@outlook.com
+43,Andrés Morales,40,Asunción,andrés.morales99@outlook.com
+44,Laura Morales,19,Lima,laura.morales48@yahoo.com
+45,Luis Sánchez,49,Caracas,luis.sánchez9@gmail.com
+46,Carlos López,33,Santiago,carlos.lópez20@yahoo.com
+47,Lucía Pérez,41,Ciudad de México,lucía.pérez75@gmail.com
+48,Lucía Martínez,55,La Paz,lucía.martínez84@yahoo.com
+49,Carlos Morales,52,Montevideo,carlos.morales93@yahoo.com
+50,Ana García,52,Montevideo,ana.garcía33@gmail.com
+51,Luis Martínez,25,Caracas,luis.martínez67@gmail.com
+52,Juan López,39,Caracas,juan.lópez22@yahoo.com
+53,María Torres,62,Santiago,maría.torres54@outlook.com
+54,Ana Sánchez,47,Lima,ana.sánchez28@outlook.com
+55,Juan Sánchez,36,Ciudad de México,juan.sánchez35@gmail.com
+56,Juan Sánchez,23,Santiago,juan.sánchez37@gmail.com
+57,Juan Sánchez,48,Santiago,juan.sánchez60@gmail.com
+58,Sofía Sánchez,49,Caracas,sofía.sánchez33@outlook.com
+59,Ana Morales,59,Quito,ana.morales58@outlook.com
+60,Lucía Díaz,49,Quito,lucía.díaz23@yahoo.com
+61,Laura García,43,Lima,laura.garcía33@gmail.com
+62,María Ramírez,46,Asunción,maría.ramírez26@outlook.com
+63,Ana Morales,41,Asunción,ana.morales7@gmail.com
+64,Sofía Martínez,18,La Paz,sofía.martínez16@yahoo.com
+65,Carlos Ramírez,32,Bogotá,carlos.ramírez66@outlook.com
+66,María López,42,Asunción,maría.lópez63@yahoo.com
+67,María Silva,39,Lima,maría.silva52@yahoo.com
+68,María Torres,60,Buenos Aires,maría.torres97@gmail.com
+69,Luis Ramírez,21,Quito,luis.ramírez96@yahoo.com
+70,Carlos Ramírez,57,Ciudad de México,carlos.ramírez16@gmail.com
+71,Ana Silva,47,Santiago,ana.silva17@outlook.com
+72,Carlos Silva,43,Buenos Aires,carlos.silva90@gmail.com
+73,Pedro Morales,29,Buenos Aires,pedro.morales1@yahoo.com
+74,Laura Pérez,64,Bogotá,laura.pérez96@yahoo.com
+75,María Morales,57,Buenos Aires,maría.morales1@gmail.com
+76,Pedro Sánchez,39,Caracas,pedro.sánchez67@yahoo.com
+77,Carlos Sánchez,39,Montevideo,carlos.sánchez29@yahoo.com
+78,Luis Pérez,47,Ciudad de México,luis.pérez69@yahoo.com
+79,Laura Sánchez,56,Ciudad de México,laura.sánchez33@yahoo.com
+80,Luis Ramírez,27,Quito,luis.ramírez69@yahoo.com
+81,Sofía Silva,36,Asunción,sofía.silva96@gmail.com
+82,Lucía Sánchez,62,Ciudad de México,lucía.sánchez16@outlook.com
+83,Ana Pérez,45,Ciudad de México,ana.pérez24@yahoo.com
+84,Carlos Pérez,50,Santiago,carlos.pérez43@gmail.com
+85,Carlos Pérez,50,La Paz,carlos.pérez74@outlook.com
+86,Ana López,52,Caracas,ana.lópez81@yahoo.com
+87,Lucía Silva,27,Asunción,lucía.silva34@outlook.com
+88,Andrés Ramírez,21,Asunción,andrés.ramírez75@gmail.com
+89,Lucía Martínez,42,Buenos Aires,lucía.martínez36@yahoo.com
+90,Luis Morales,41,Santiago,luis.morales49@outlook.com
+91,Sofía García,56,La Paz,sofía.garcía23@yahoo.com
+92,Luis Pérez,30,Caracas,luis.pérez89@outlook.com
+93,Andrés Pérez,37,Montevideo,andrés.pérez86@gmail.com
+94,Carlos Pérez,53,Montevideo,carlos.pérez19@gmail.com
+95,Pedro Martínez,36,Asunción,pedro.martínez16@gmail.com
+96,Luis López,29,Montevideo,luis.lópez52@outlook.com
+97,Luis Martínez,40,Montevideo,luis.martínez39@gmail.com
+98,Luis Silva,56,Asunción,luis.silva5@outlook.com
+99,Pedro García,64,Montevideo,pedro.garcía74@yahoo.com
+100,Juan Torres,24,La Paz,juan.torres42@gmail.com
+101,Ana Silva,19,Buenos Aires,ana.silva29@gmail.com
+102,María López,25,Lima,maría.lópez86@gmail.com
+103,Pedro Morales,62,Ciudad de México,pedro.morales36@yahoo.com
+104,Carlos Torres,56,Asunción,carlos.torres90@outlook.com
+105,Pedro López,62,Bogotá,pedro.lópez92@yahoo.com
+106,Laura Martínez,45,La Paz,laura.martínez61@outlook.com
+107,Andrés Ramírez,18,Santiago,andrés.ramírez77@yahoo.com
+108,Andrés Pérez,42,La Paz,andrés.pérez33@yahoo.com
+109,Luis Torres,61,Buenos Aires,luis.torres80@yahoo.com
+110,Luis Sánchez,53,Santiago,luis.sánchez19@gmail.com
+111,Ana Morales,31,Lima,ana.morales54@yahoo.com
+112,Carlos Ramírez,28,Asunción,carlos.ramírez96@yahoo.com
+113,Lucía Sánchez,25,Asunción,lucía.sánchez92@yahoo.com
+114,Lucía Silva,45,Buenos Aires,lucía.silva41@outlook.com
+115,María Pérez,26,Lima,maría.pérez84@gmail.com
+116,Carlos Torres,35,Santiago,carlos.torres69@outlook.com
+117,Andrés García,27,La Paz,andrés.garcía30@yahoo.com
+118,Luis Ramírez,50,Quito,luis.ramírez65@yahoo.com
+119,Juan Sánchez,43,Montevideo,juan.sánchez86@outlook.com
+120,Juan Pérez,51,Montevideo,juan.pérez99@outlook.com
+121,Juan Sánchez,23,Lima,juan.sánchez69@outlook.com
+122,Luis Torres,20,Buenos Aires,luis.torres23@gmail.com
+123,Luis Sánchez,27,Asunción,luis.sánchez83@gmail.com
+124,Luis Morales,63,Lima,luis.morales51@gmail.com
+125,Sofía Pérez,57,Bogotá,sofía.pérez92@outlook.com
+126,Lucía Ramírez,43,Asunción,lucía.ramírez34@yahoo.com
+127,María López,29,Lima,maría.lópez54@gmail.com
+128,Andrés Pérez,64,Caracas,andrés.pérez79@gmail.com
+129,Luis García,28,Santiago,luis.garcía38@yahoo.com
+130,María García,51,Bogotá,maría.garcía30@outlook.com
+131,Carlos García,55,Lima,carlos.garcía88@outlook.com
+132,Pedro Silva,34,Buenos Aires,pedro.silva29@yahoo.com
+133,Lucía Pérez,27,Lima,lucía.pérez84@gmail.com
+134,Ana Torres,19,Santiago,ana.torres23@outlook.com
+135,María Díaz,21,La Paz,maría.díaz4@gmail.com
+136,Carlos López,44,Bogotá,carlos.lópez61@yahoo.com
+137,Carlos López,38,Buenos Aires,carlos.lópez82@yahoo.com
+138,María Sánchez,23,Lima,maría.sánchez5@gmail.com
+139,Laura García,31,Asunción,laura.garcía45@outlook.com
+140,Andrés Silva,64,Montevideo,andrés.silva86@outlook.com
+141,Lucía Pérez,43,Ciudad de México,lucía.pérez1@gmail.com
+142,Carlos Martínez,32,La Paz,carlos.martínez86@yahoo.com
+143,Laura Ramírez,31,La Paz,laura.ramírez2@gmail.com
+144,Laura Díaz,24,Santiago,laura.díaz23@yahoo.com
+145,Ana Silva,55,Santiago,ana.silva15@gmail.com
+146,Pedro Sánchez,45,Asunción,pedro.sánchez39@gmail.com
+147,Juan Ramírez,39,Asunción,juan.ramírez44@gmail.com
+148,Juan Martínez,42,Ciudad de México,juan.martínez10@outlook.com
+149,Andrés García,64,Ciudad de México,andrés.garcía86@yahoo.com
+150,Lucía Díaz,61,Santiago,lucía.díaz42@gmail.com
+151,Luis Torres,43,Bogotá,luis.torres59@outlook.com
+152,María Sánchez,50,Buenos Aires,maría.sánchez22@gmail.com
+153,María Torres,21,La Paz,maría.torres55@gmail.com
+154,Pedro López,48,La Paz,pedro.lópez36@outlook.com
+155,María García,37,Ciudad de México,maría.garcía79@yahoo.com
+156,María Pérez,47,La Paz,maría.pérez51@yahoo.com
+157,Andrés García,32,La Paz,andrés.garcía26@outlook.com
+158,Luis Torres,43,Quito,luis.torres68@outlook.com
+159,Sofía Pérez,37,Lima,sofía.pérez12@outlook.com
+160,Juan Silva,31,Quito,juan.silva37@yahoo.com
+161,Sofía López,50,Quito,sofía.lópez50@yahoo.com
+162,Luis Ramírez,27,Bogotá,luis.ramírez13@yahoo.com
+163,Sofía Pérez,54,Montevideo,sofía.pérez17@gmail.com
+164,Lucía Torres,52,Lima,lucía.torres69@yahoo.com
+165,Ana Sánchez,28,Montevideo,ana.sánchez34@outlook.com
+166,Carlos Pérez,57,Quito,carlos.pérez60@gmail.com
+167,Lucía Morales,54,Santiago,lucía.morales85@gmail.com
+168,Luis López,31,Asunción,luis.lópez62@gmail.com
+169,Laura Morales,35,La Paz,laura.morales72@outlook.com
+170,Lucía López,55,Lima,lucía.lópez23@outlook.com
+171,Juan Morales,34,Lima,juan.morales66@yahoo.com
+172,Luis Díaz,57,Santiago,luis.díaz39@outlook.com
+173,María Torres,20,Caracas,maría.torres51@yahoo.com
+174,Sofía Pérez,47,Caracas,sofía.pérez27@gmail.com
+175,María Morales,50,Buenos Aires,maría.morales27@outlook.com
+176,Juan Martínez,39,Bogotá,juan.martínez10@gmail.com
+177,Laura Pérez,55,Ciudad de México,laura.pérez88@outlook.com
+178,Lucía Sánchez,46,Ciudad de México,lucía.sánchez76@gmail.com
+179,Ana López,53,Ciudad de México,ana.lópez26@outlook.com
+180,Luis Martínez,28,Asunción,luis.martínez38@yahoo.com
+181,Lucía Ramírez,64,Asunción,lucía.ramírez46@outlook.com
+182,Laura Díaz,35,Montevideo,laura.díaz97@outlook.com
+183,Lucía Martínez,21,Buenos Aires,lucía.martínez37@outlook.com
+184,Laura Pérez,45,Asunción,laura.pérez9@yahoo.com
+185,Carlos Díaz,58,Quito,carlos.díaz11@outlook.com
+186,Juan Sánchez,38,Asunción,juan.sánchez36@yahoo.com
+187,Pedro Morales,18,Quito,pedro.morales55@outlook.com
+188,Lucía Sánchez,64,Montevideo,lucía.sánchez53@gmail.com
+189,Laura Martínez,43,Montevideo,laura.martínez35@outlook.com
+190,Sofía Morales,43,Quito,sofía.morales2@outlook.com
+191,Ana García,44,Lima,ana.garcía43@outlook.com
+192,Carlos Torres,41,Montevideo,carlos.torres71@yahoo.com
+193,Luis Díaz,50,Lima,luis.díaz29@outlook.com
+194,María Silva,45,Bogotá,maría.silva85@gmail.com
+195,Pedro Pérez,37,Montevideo,pedro.pérez49@yahoo.com
+196,María Díaz,24,Lima,maría.díaz96@gmail.com
+197,Pedro López,36,Lima,pedro.lópez45@gmail.com
+198,Lucía López,35,Lima,lucía.lópez78@outlook.com
+199,Ana García,45,Lima,ana.garcía94@yahoo.com
+200,Carlos Martínez,18,La Paz,carlos.martínez29@outlook.com
