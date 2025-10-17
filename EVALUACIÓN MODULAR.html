@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Saldivia - Portafolio Profesional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+            animation: fadeInUp 1s;
+        }
+
+        nav {
+            background: #2c3e50;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #667eea;
+        }
+
+        section {
+            background: white;
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            animation: fadeInUp 0.8s;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        .about-content p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #e0e0e0;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+        }
+
+        .project-header h3 {
+            font-size: 1.5em;
+            margin-bottom: 8px;
+        }
+
+        .project-header p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        .project-body {
+            padding: 25px;
+        }
+
+        .project-body h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .project-body h4:first-child {
+            margin-top: 0;
+        }
+
+        .project-body p {
+            color: #555;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tech-tag {
+            background: #e8f0fe;
+            color: #1967d2;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+
+        .project-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            nav li {
+                margin: 5px 10px;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Carlos Saldivia Susperreguy</h1>
+            <p>Estudiante de Bootcamp Ingeniería de Datos | IT Academy by Kibernum</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <p>
+                    ¡Hola! Soy Carlos Saldivia Susperreguy, estudiante de IT Academy by Kibernum, apasionado por la tecnología 
+                    y la ciencia de datos. Mi enfoque está en crear soluciones eficientes y efectivas mediante 
+                    el uso de Python y análisis de datos.
+                </p>
+                <p style="margin-top: 20px;">
+                    A través de mi formación en el bootcamp de Fundamentos de Ingeniería de Datos (207 horas), 
+                    he desarrollado habilidades sólidas en programación, manipulación de datos y resolución de problemas complejos. 
+                    He trabajado con tecnologías modernas como Python, bases de datos relacionales y NoSQL, procesamiento distribuido 
+                    con Apache Spark, y servicios cloud de AWS.
+                </p>
+                <p style="margin-top: 20px;">
+                    Mi objetivo profesional es convertirme en un ingeniero de datos completo, capaz de diseñar e implementar 
+                    arquitecturas de datos escalables, pipelines de ETL eficientes y soluciones de procesamiento masivo 
+                    que contribuyan en proyectos innovadores y generen impacto real en las organizaciones.
+                </p>
+                
+                <div class="skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Pandas & NumPy</span>
+                    <span class="skill-tag">SQL & NoSQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Apache Spark</span>
+                    <span class="skill-tag">ETL/ELT</span>
+                    <span class="skill-tag">AWS Cloud</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Data Warehousing</span>
+                    <span class="skill-tag">Apache Kafka</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1: Módulo 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📚 Sistema de Gestión de Biblioteca Digital</h3>
+                        <p>Módulo 2 - Programación Orientada a Objetos</p>
+                    </div>
+                    <div class="project-body">
+                        <h4>Descripción</h4>
+                        <p>
+                            Aplicación en Python para gestionar libros, usuarios y préstamos de la "Biblioteca Digital 
+                            para Ingenieros de Datos" de DataSolutions Academy. El sistema permite registrar y consultar 
+                            libros por autor, género y disponibilidad, administrar usuarios con diferentes roles 
+                            (Estudiante, Instructor) y gestionar préstamos con validación completa.
+                        </p>
+                        
+                        <h4>Objetivos</h4>
+                        <p>
+                            Desarrollar una aplicación robusta aplicando funciones, estructuras de datos, POO y 
+                            manejo de excepciones para automatizar la gestión de una biblioteca digital, 
+                            eliminando procesos manuales propensos a errores.
+                        </p>
+
+                        <h4>Tecnologías Utilizadas</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">POO</span>
+                            <span class="tech-tag">Herencia</span>
+                            <span class="tech-tag">Polimorfismo</span>
+                            <span class="tech-tag">Manejo de Excepciones</span>
+                        </div>
+
+                        <h4>Características Clave</h4>
+                        <p>
+                            • Estructura modular organizada en paquetes<br>
+                            • Clases para Libros, Usuarios (Estudiante/Instructor) y Préstamos<br>
+                            • Sistema de excepciones personalizadas<br>
+                            • Validación de disponibilidad y control de errores<br>
+                            • Documentación completa con docstrings PEP8
+                        </p>
+
+                        <h4>Reflexión</h4>
+                        <p>
+                            Este proyecto me permitió consolidar los fundamentos de POO en Python. 
+                            Aprendí la importancia de escribir código modular, documentado y robusto mediante 
+                            el manejo adecuado de excepciones. La implementación de herencia y polimorfismo 
+                            me ayudó a crear soluciones escalables y mantenibles.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/csaldivia11/Portafolio/tree/main/Modulo%202/Evaluaci%C3%B3n" class="btn" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Módulo 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔄 Pipeline de Datos Analítico</h3>
+                        <p>Módulo 3 - Del Archivo Crudo al Reporte Analítico</p>
+                    </div>
+                    <div class="project-body">
+                        <h4>Descripción</h4>
+                        <p>
+                            Pipeline completo de datos que simula un escenario empresarial real: procesamiento 
+                            automatizado de archivos con errores, datos faltantes y formatos inconsistentes. 
+                            El proyecto incluye generación de datos sintéticos (clientes.csv y ventas.xlsx), 
+                            limpieza exhaustiva, detección y tratamiento de outliers, integración de fuentes, 
+                            y generación de reportes analíticos.
+                        </p>
+                        
+                        <h4>Objetivos</h4>
+                        <p>
+                            Construir un pipeline profesional de data wrangling que automatice la transformación 
+                            de datos crudos en información confiable para la toma de decisiones empresariales, 
+                            aplicando técnicas avanzadas de limpieza y análisis.
+                        </p>
+
+                        <h4>Tecnologías Utilizadas</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Data Wrangling</span>
+                        </div>
+
+                        <h4>Características Clave</h4>
+                        <p>
+                            • Generación de datos sintéticos con errores intencionales<br>
+                            • Limpieza y normalización de columnas<br>
+                            • Tratamiento de valores nulos mediante imputación justificada<br>
+                            • Detección de outliers con IQR y z-score<br>
+                            • Integración de múltiples fuentes de datos<br>
+                            • Agrupamiento y resúmenes estadísticos con pivot tables<br>
+                            • Visualizaciones analíticas y exportación de reportes
+                        </p>
+
+                        <h4>Reflexión</h4>
+                        <p>
+                            Este proyecto me enseñó que los datos del mundo real son desordenados y requieren 
+                            un proceso riguroso de limpieza. Aprendí a tomar decisiones fundamentadas sobre 
+                            el tratamiento de nulos y outliers, y a documentar cada paso del proceso. 
+                            La experiencia me preparó para enfrentar desafíos reales en proyectos de ingeniería de datos.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/csaldivia11/Portafolio/tree/main/M%C3%B3dulo%203/Evaluaci%C3%B3n" class="btn" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Módulo 8 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>⚡ Flujos de Datos en Tiempo Real</h3>
+                        <p>Módulo 8 - Apache NiFi y Apache Kafka</p>
+                    </div>
+                    <div class="project-body">
+                        <h4>Descripción</h4>
+                        <p>
+                            Implementación de arquitecturas de datos modernas para procesamiento batch y en tiempo real. 
+                            El proyecto consta de dos tareas: (1) Flujo ETL con Apache NiFi que lee archivos CSV, 
+                            transforma datos de CSV a JSON y carga en PostgreSQL, y (2) Sistema de streaming con 
+                            Apache Kafka que incluye productor en Python simulando eventos de ventas y consumidor 
+                            que procesa mensajes en tiempo real y almacena en SQLite.
+                        </p>
+                        
+                        <h4>Objetivos</h4>
+                        <p>
+                            Demostrar competencia en tecnologías de ingeniería de datos empresariales, 
+                            implementando pipelines de ingesta batch con NiFi y streaming de eventos con Kafka, 
+                            aplicando buenas prácticas de monitoreo y logging.
+                        </p>
+
+                        <h4>Tecnologías Utilizadas</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Apache NiFi</span>
+                            <span class="tech-tag">Apache Kafka</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Zookeeper</span>
+                        </div>
+
+                        <h4>Características Clave</h4>
+                        <p>
+                            <strong>Apache NiFi:</strong><br>
+                            • Procesadores GetFile, UpdateAttribute, ConvertRecord, PutDatabaseRecord<br>
+                            • Transformación CSV a JSON con validación de esquemas<br>
+                            • Integración con PostgreSQL usando HikariCP Connection Pool<br>
+                            • Logging y monitoreo del procesamiento<br><br>
+                            
+                            <strong>Apache Kafka:</strong><br>
+                            • Productor que simula eventos de sistema de ventas<br>
+                            • Consumidor con lógica de procesamiento en tiempo real<br>
+                            • Detección de clientes VIP con alertas automáticas<br>
+                            • Estadísticas en tiempo real y persistencia en SQLite
+                        </p>
+
+                        <h4>Reflexión</h4>
+                        <p>
+                            Este proyecto me introdujo a las tecnologías fundamentales de la ingeniería de datos moderna. 
+                            Aprendí la diferencia entre procesamiento batch y streaming, y cómo cada uno tiene sus 
+                            casos de uso específicos. La configuración de NiFi y Kafka me enseñó sobre arquitecturas 
+                            distribuidas y la importancia del monitoreo en sistemas de datos en producción.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/csaldivia11/Portafolio/tree/main/M%C3%B3dulo%208/Evaluaci%C3%B3n%20modular" class="btn" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="about-content">
+                <p style="text-align: center;">¿Interesado en colaborar o conocer más sobre mi trabajo? ¡No dudes en contactarme!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>GitHub:</strong> 
+                        <a href="https://github.com/csaldivia11" target="_blank" style="color: #667eea;">@csaldivia11</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong> 
+                        <span>c.saldivia.susperreguy@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Carlos Saldivia Susperreguy. Portafolio Profesional - IT Academy by Kibernum</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Módulo 10 - Evaluación Modular</p>
+        </div>
+    </footer>
+</body>
+</html>
